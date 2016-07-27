@@ -1,0 +1,158 @@
+@relation 'gadgetID_vendorName-weka.filters.unsupervised.attribute.StringToWordVector-R-W1000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-M1-O-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"'
+
+@attribute Identifier {'iphone 6 att 16gb','iPhone 6    ATT  16GB','Apple iPhone 6 (ATT) 16GB','apple iphone 6 16gb att','Apple iPhone Apple  iPhone  6  16GB 412 2 cell 2889','iPhone 6  ATT 16 GB','Apple 6 16gb  ATT','iphone 6 verizon 16gb','iPhone 6   Verizon  16GB','apple iphone 6 verizon 16gb','Apple iPhone 6 (Verizon) 16GB','apple iphone 6 16gb verizon','Apple iPhone Apple  iPhone  6  16GB 412 2 cell 2898','iPhone 6 Verizon 16 GB','Apple 6 16gb Verizon','iphone 6 tmobile 16gb','iPhone 6   T Mobile  16GB','apple iphone 6 tmobile 16gb','Apple iPhone 6 (T Mobile) 16GB','apple iphone 6 16gb t mobile','Apple iPhone Apple  iPhone  6  16GB 412 2 cell 2895','iPhone 6 T Mobile 16 GB','Apple 6 16gb T Mobile','iphone 6 sprint 16gb','iPhone 6   Sprint  16GB','apple iphone 6 sprint 16gb','Apple iPhone 6 (Sprint) 16GB','apple iphone 6 16gb sprint','Apple iPhone Apple  iPhone  6  16GB 412 2 cell 2892','iPhone 6 Sprint 16 GB','iphone 6 unlocked 16gb','iPhone 6   Unlocked  16GB','Apple iPhone 6 (Factory Unlocked) 16GB','apple iphone 6 16gb unlocked','Apple iPhone Apple  iPhone  6  16GB 412 2 cell 2904','iPhone 6 Plus Factory Unlocked 16 GB','Apple 6 16gb Unlocked','iphone 6 att 128gb','iPhone 6   ATT  128GB','apple iphone 6 att 128gb','Apple iPhone 6 (ATT) 128GB','apple iphone 6 128gb att','Apple iPhone Apple  iPhone  6  128GB 412 2 cell 2891','iPhone 6  ATT 128 GB','Apple 6 128gb  ATT','iphone 6 att 64gb','iPhone 6    ATT  64GB','apple iphone 6 att 64gb','Apple iPhone 6 (ATT) 64GB','apple iphone 6 64gb att','Apple iPhone Apple  iPhone  6  64GB 412 2 cell 2890','iPhone 6  ATT 64 GB','Apple 6 64gb  ATT','iphone 6 verizon 128gb','iPhone 6   Verizon  128GB','apple iphone 6 verizon 128gb','Apple iPhone 6 (Verizon) 128GB','apple iphone 6 128gb verizon','Apple iPhone Apple  iPhone  6  128GB 412 2 cell 2900','iPhone 6 Verizon 128 GB','Apple 6 128gb Verizon','iphone 6 verizon 64gb','iPhone 6   Verizon  64GB','apple iphone 6 verizon 64gb','Apple iPhone 6 (Verizon) 64GB','apple iphone 6 64gb verizon','Apple iPhone Apple  iPhone  6  64GB 412 2 cell 2899','iPhone 6 Verizon 64 GB','Apple 6 64gb Verizon','iphone 6 tmobile 128gb','iPhone 6   T Mobile  128GB','apple iphone 6 tmobile 128gb','Apple iPhone 6 (T Mobile) 128GB','apple iphone 6 128gb t mobile','Apple iPhone Apple  iPhone  6  128GB 412 2 cell 2897','iPhone 6 T Mobile 128 GB','Apple 6 128gb T Mobile','iphone 6 tmobile 64gb','iPhone 6   T Mobile  64GB','apple iphone 6 tmobile 64gb','Apple iPhone 6 (T Mobile) 64GB','apple iphone 6 64gb t mobile','Apple iPhone Apple  iPhone  6  64GB 412 2 cell 2896','iPhone 6 T Mobile 64 GB','Apple 6 64gb T Mobile','iphone 6 sprint 128gb','iPhone 6   Sprint  128GB','apple iphone 6 sprint 128gb','Apple iPhone 6 (Sprint) 128GB','apple iphone 6 128gb sprint','Apple iPhone Apple  iPhone  6  128GB 412 2 cell 2894','iPhone 6 Sprint 128 GB','iphone 6 sprint 64gb','iPhone 6   Sprint  64GB','apple iphone 6 sprint 64gb','Apple iPhone 6 (Sprint) 64GB','apple iphone 6 64gb sprint','Apple iPhone Apple  iPhone  6  64GB 412 2 cell 2893','iPhone 6 Sprint 64 GB','iphone 6 unlocked 128gb','iPhone 6   Unlocked  128GB','apple iphone 6 128gb unlocked','364 31','Apple iPhone Apple  iPhone  6  128GB 412 2 cell 2906','iPhone 6 Plus Factory Unlocked 128 GB','Apple 6 128gb Unlocked',iphone-6-unlocked-64gb,'iPhone 6 - Unlocked, 64GB',apple-iphone-6-64gb-unlocked,Apple-iPhone-Apple_iPhone_6_64GB-412-2-cell-2905,'iPhone 6 Plus Factory Unlocked 64 GB','Apple 6 64gb Unlocked',iphone-6-att-16gb,'iPhone 6 - AT&T, 16GB',apple-iphone-6-att-16gb,apple-iphone-6-16gb-att,Apple-iPhone-Apple_iPhone_6_16GB-412-2-cell-2889,'iPhone 6 AT&T 16 GB','Apple 6 16gb AT&T',iphone-6-verizon-16gb,'iPhone 6 - Verizon, 16GB',apple-iphone-6-verizon-16gb,apple-iphone-6-16gb-verizon,Apple-iPhone-Apple_iPhone_6_16GB-412-2-cell-2898,iphone-6-tmobile-16gb,'iPhone 6 - T-Mobile, 16GB',apple-iphone-6-tmobile-16gb,'Apple iPhone 6 (T-Mobile) 16GB',apple-iphone-6-16gb-t-mobile,Apple-iPhone-Apple_iPhone_6_16GB-412-2-cell-2895,'iPhone 6 T-Mobile 16 GB','Apple 6 16gb T-Mobile'}
+@attribute 'Gadget ID' numeric
+
+@data
+{1 1}
+{0 'iPhone 6    ATT  16GB',1 1}
+{0 'Apple iPhone 6 (ATT) 16GB',1 1}
+{0 'apple iphone 6 16gb att',1 1}
+{0 'Apple iPhone Apple  iPhone  6  16GB 412 2 cell 2889',1 1}
+{0 'iPhone 6  ATT 16 GB',1 1}
+{0 'Apple 6 16gb  ATT',1 1}
+{0 'iphone 6 verizon 16gb',1 2}
+{0 'iPhone 6   Verizon  16GB',1 2}
+{0 'apple iphone 6 verizon 16gb',1 2}
+{0 'Apple iPhone 6 (Verizon) 16GB',1 2}
+{0 'apple iphone 6 16gb verizon',1 2}
+{0 'Apple iPhone Apple  iPhone  6  16GB 412 2 cell 2898',1 2}
+{0 'iPhone 6 Verizon 16 GB',1 2}
+{0 'Apple 6 16gb Verizon',1 2}
+{0 'iphone 6 tmobile 16gb',1 3}
+{0 'iPhone 6   T Mobile  16GB',1 3}
+{0 'apple iphone 6 tmobile 16gb',1 3}
+{0 'Apple iPhone 6 (T Mobile) 16GB',1 3}
+{0 'apple iphone 6 16gb t mobile',1 3}
+{0 'Apple iPhone Apple  iPhone  6  16GB 412 2 cell 2895',1 3}
+{0 'iPhone 6 T Mobile 16 GB',1 3}
+{0 'Apple 6 16gb T Mobile',1 3}
+{0 'iphone 6 sprint 16gb',1 4}
+{0 'iPhone 6   Sprint  16GB',1 4}
+{0 'apple iphone 6 sprint 16gb',1 4}
+{0 'Apple iPhone 6 (Sprint) 16GB',1 4}
+{0 'apple iphone 6 16gb sprint',1 4}
+{0 'Apple iPhone Apple  iPhone  6  16GB 412 2 cell 2892',1 4}
+{0 'iPhone 6 Sprint 16 GB',1 4}
+{0 'iphone 6 unlocked 16gb',1 5}
+{0 'iPhone 6   Unlocked  16GB',1 5}
+{0 'Apple iPhone 6 (Factory Unlocked) 16GB',1 5}
+{0 'apple iphone 6 16gb unlocked',1 5}
+{0 'Apple iPhone Apple  iPhone  6  16GB 412 2 cell 2904',1 5}
+{0 'iPhone 6 Plus Factory Unlocked 16 GB',1 5}
+{0 'Apple 6 16gb Unlocked',1 5}
+{0 'iphone 6 att 128gb',1 6}
+{0 'iPhone 6   ATT  128GB',1 6}
+{0 'apple iphone 6 att 128gb',1 6}
+{0 'Apple iPhone 6 (ATT) 128GB',1 6}
+{0 'apple iphone 6 128gb att',1 6}
+{0 'Apple iPhone Apple  iPhone  6  128GB 412 2 cell 2891',1 6}
+{0 'iPhone 6  ATT 128 GB',1 6}
+{0 'Apple 6 128gb  ATT',1 6}
+{0 'iphone 6 att 64gb',1 7}
+{0 'iPhone 6    ATT  64GB',1 7}
+{0 'apple iphone 6 att 64gb',1 7}
+{0 'Apple iPhone 6 (ATT) 64GB',1 7}
+{0 'apple iphone 6 64gb att',1 7}
+{0 'Apple iPhone Apple  iPhone  6  64GB 412 2 cell 2890',1 7}
+{0 'iPhone 6  ATT 64 GB',1 7}
+{0 'Apple 6 64gb  ATT',1 7}
+{0 'iphone 6 verizon 128gb',1 8}
+{0 'iPhone 6   Verizon  128GB',1 8}
+{0 'apple iphone 6 verizon 128gb',1 8}
+{0 'Apple iPhone 6 (Verizon) 128GB',1 8}
+{0 'apple iphone 6 128gb verizon',1 8}
+{0 'Apple iPhone Apple  iPhone  6  128GB 412 2 cell 2900',1 8}
+{0 'iPhone 6 Verizon 128 GB',1 8}
+{0 'Apple 6 128gb Verizon',1 8}
+{0 'iphone 6 verizon 64gb',1 9}
+{0 'iPhone 6   Verizon  64GB',1 9}
+{0 'apple iphone 6 verizon 64gb',1 9}
+{0 'Apple iPhone 6 (Verizon) 64GB',1 9}
+{0 'apple iphone 6 64gb verizon',1 9}
+{0 'Apple iPhone Apple  iPhone  6  64GB 412 2 cell 2899',1 9}
+{0 'iPhone 6 Verizon 64 GB',1 9}
+{0 'Apple 6 64gb Verizon',1 9}
+{0 'iphone 6 tmobile 128gb',1 10}
+{0 'iPhone 6   T Mobile  128GB',1 10}
+{0 'apple iphone 6 tmobile 128gb',1 10}
+{0 'Apple iPhone 6 (T Mobile) 128GB',1 10}
+{0 'apple iphone 6 128gb t mobile',1 10}
+{0 'Apple iPhone Apple  iPhone  6  128GB 412 2 cell 2897',1 10}
+{0 'iPhone 6 T Mobile 128 GB',1 10}
+{0 'Apple 6 128gb T Mobile',1 10}
+{0 'iphone 6 tmobile 64gb',1 11}
+{0 'iPhone 6   T Mobile  64GB',1 11}
+{0 'apple iphone 6 tmobile 64gb',1 11}
+{0 'Apple iPhone 6 (T Mobile) 64GB',1 11}
+{0 'apple iphone 6 64gb t mobile',1 11}
+{0 'Apple iPhone Apple  iPhone  6  64GB 412 2 cell 2896',1 11}
+{0 'iPhone 6 T Mobile 64 GB',1 11}
+{0 'Apple 6 64gb T Mobile',1 11}
+{0 'iphone 6 sprint 128gb',1 12}
+{0 'iPhone 6   Sprint  128GB',1 12}
+{0 'apple iphone 6 sprint 128gb',1 12}
+{0 'Apple iPhone 6 (Sprint) 128GB',1 12}
+{0 'apple iphone 6 128gb sprint',1 12}
+{0 'Apple iPhone Apple  iPhone  6  128GB 412 2 cell 2894',1 12}
+{0 'iPhone 6 Sprint 128 GB',1 12}
+{0 'iphone 6 sprint 64gb',1 13}
+{0 'iPhone 6   Sprint  64GB',1 13}
+{0 'apple iphone 6 sprint 64gb',1 13}
+{0 'Apple iPhone 6 (Sprint) 64GB',1 13}
+{0 'apple iphone 6 64gb sprint',1 13}
+{0 'Apple iPhone Apple  iPhone  6  64GB 412 2 cell 2893',1 13}
+{0 'iPhone 6 Sprint 64 GB',1 13}
+{0 'iphone 6 unlocked 128gb',1 14}
+{0 'iPhone 6   Unlocked  128GB',1 14}
+{0 'apple iphone 6 128gb unlocked',1 14}
+{0 '364 31',1 14}
+{0 'Apple iPhone Apple  iPhone  6  128GB 412 2 cell 2906',1 14}
+{0 'iPhone 6 Plus Factory Unlocked 128 GB',1 14}
+{0 'Apple 6 128gb Unlocked',1 14}
+{0 iphone-6-unlocked-64gb,1 15}
+{0 'iPhone 6 - Unlocked, 64GB',1 15}
+{0 apple-iphone-6-64gb-unlocked,1 15}
+{0 Apple-iPhone-Apple_iPhone_6_64GB-412-2-cell-2905,1 15}
+{0 'iPhone 6 Plus Factory Unlocked 64 GB',1 15}
+{0 'Apple 6 64gb Unlocked',1 15}
+{0 iphone-6-att-16gb,1 16}
+{0 'iPhone 6 - AT&T, 16GB',1 16}
+{0 apple-iphone-6-att-16gb,1 16}
+{0 'Apple iPhone 6 (ATT) 16GB',1 16}
+{0 apple-iphone-6-16gb-att,1 16}
+{0 Apple-iPhone-Apple_iPhone_6_16GB-412-2-cell-2889,1 16}
+{0 'iPhone 6 AT&T 16 GB',1 16}
+{0 'Apple 6 16gb AT&T',1 16}
+{0 iphone-6-att-16gb,1 17}
+{0 'iPhone 6 - AT&T, 16GB',1 17}
+{0 apple-iphone-6-att-16gb,1 17}
+{0 'Apple iPhone 6 (ATT) 16GB',1 17}
+{0 apple-iphone-6-16gb-att,1 17}
+{0 Apple-iPhone-Apple_iPhone_6_16GB-412-2-cell-2889,1 17}
+{0 'iPhone 6 AT&T 16 GB',1 17}
+{0 'Apple 6 16gb AT&T',1 17}
+{0 iphone-6-verizon-16gb,1 18}
+{0 'iPhone 6 - Verizon, 16GB',1 18}
+{0 apple-iphone-6-verizon-16gb,1 18}
+{0 'Apple iPhone 6 (Verizon) 16GB',1 18}
+{0 apple-iphone-6-16gb-verizon,1 18}
+{0 Apple-iPhone-Apple_iPhone_6_16GB-412-2-cell-2898,1 18}
+{0 'iPhone 6 Verizon 16 GB',1 18}
+{0 'Apple 6 16gb Verizon',1 18}
+{0 iphone-6-verizon-16gb,1 19}
+{0 'iPhone 6 - Verizon, 16GB',1 19}
+{0 apple-iphone-6-verizon-16gb,1 19}
+{0 'Apple iPhone 6 (Verizon) 16GB',1 19}
+{0 apple-iphone-6-16gb-verizon,1 19}
+{0 Apple-iPhone-Apple_iPhone_6_16GB-412-2-cell-2898,1 19}
+{0 'iPhone 6 Verizon 16 GB',1 19}
+{0 'Apple 6 16gb Verizon',1 19}
+{0 iphone-6-tmobile-16gb,1 20}
+{0 'iPhone 6 - T-Mobile, 16GB',1 20}
+{0 apple-iphone-6-tmobile-16gb,1 20}
+{0 'Apple iPhone 6 (T-Mobile) 16GB',1 20}
+{0 apple-iphone-6-16gb-t-mobile,1 20}
+{0 Apple-iPhone-Apple_iPhone_6_16GB-412-2-cell-2895,1 20}
+{0 'iPhone 6 T-Mobile 16 GB',1 20}
+{0 'Apple 6 16gb T-Mobile',1 20}
