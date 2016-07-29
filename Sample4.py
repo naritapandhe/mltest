@@ -110,6 +110,64 @@ import numpy as np
 		"Apple 6 64gb Verizon"
 
 	),
+	(10,
+		"iphone 6 tmobile 128gb",
+		"iPhone 6 T Mobile 128GB",
+		"apple iphone 6 tmobile 128gb",
+		"Apple iPhone 6 (T Mobile) 128GB",
+		"apple iphone 6 128gb t mobile",
+		"Apple iPhone Apple iPhone 6 128GB 412 2 cell 2897",
+		"iPhone 6 T Mobile 128 GB",
+		"Apple 6 128gb T Mobile"
+	),
+	(11,
+		"iphone 6 tmobile 64gb",
+		"iPhone 6 T Mobile 64GB",
+		"apple iphone 6 tmobile 64gb",
+		"Apple iPhone 6 T Mobile 64GB",
+		"apple iphone 6 64gb t mobile",
+		"Apple iPhone Apple iPhone 6 64GB 412 2 cell 2896",
+		"iPhone 6 T Mobile 64 GB",
+		"Apple 6 64gb T Mobile"
+
+	),
+	(12,
+		"iphone 6 sprint 128gb",
+		"iPhone 6 Sprint 128GB",
+		"apple iphone 6 sprint 128gb",
+		"Apple iPhone 6 Sprint 128GB",
+		"apple iphone 6 128gb sprint",
+		"Apple iPhone Apple iPhone 6 128GB 412 2 cell 2894",
+		"iPhone 6 Sprint 128 GB"
+
+
+	),
+	(13,
+		"iphone 6 sprint 64gb",
+		"iPhone 6 Sprint 64GB",
+		"apple iphone 6 sprint 64gb",
+		"Apple iPhone 6 Sprint 64GB",
+		"apple iphone 6 64gb sprint",
+		"Apple iPhone Apple iPhone 6 64GB 412 2 cell 2893"
+		"iPhone 6 Sprint 64 GB"
+	),
+	(14,
+		"iphone 6 unlocked 128gb",
+		"iPhone 6 Unlocked 128GB",
+		"apple iphone 6 128gb unlocked",
+		"Apple iPhone Apple iPhone 6 128GB 412 2 cell 2906",
+		"iPhone 6 Plus Factory Unlocked 128 GB",
+		"Apple 6 128gb Unlocked"),
+	),
+	(15,
+		"iphone 6 unlocked 64gb",
+		"iPhone 6 Unlocked, 64GB",
+		"apple iphone 6 64gb unlocked",
+		"Apple iPhone Apple iPhone 6 64GB 412 2 cell 2905",
+		"iPhone 6 Plus Factory Unlocked 64 GB",
+		"Apple 6 64gb Unlocked"
+	)	
+
 	
 	
 	
