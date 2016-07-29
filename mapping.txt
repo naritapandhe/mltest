@@ -1,0 +1,7 @@
+iphone5s at&t 16gb - [156, 157, 146]
+iphone5 verizon 32gb - [113, 97]
+iphone5 verizon 16gb - [92,103]
+iphone5 at&t 32gb - [96,111]
+iphone5 at&t 16gb - [91,101]
+iphone5 unlocked 32gb - [100,119]
+iphone5 unlocked 16gb - [95,109]
